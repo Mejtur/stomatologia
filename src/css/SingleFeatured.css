@@ -1,0 +1,35 @@
+.singleFeatured {
+  width: 28%;
+  flex-grow: 1;
+  background-color: #ececec;
+  margin: 1%;
+}
+
+.singleFeatured__image {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.singleFeatured__textContainer {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.singleFeatured__title {
+  padding: 25px 0;
+  font-family: "Lora", serif;
+  font-size: 18px;
+}
+
+.singleFeatured__description {
+  font-family: "Merriweather", serif;
+  font-size: 12px;
+}
+
+@media (max-width: 850px) {
+  .singleFeatured {
+    width: 80%;
+    margin: 20px auto;
+  }
+}

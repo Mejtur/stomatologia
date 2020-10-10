@@ -1,18 +1,26 @@
 .btn {
   color: white;
   background-color: #0a078c;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border: 1px solid #0a078c;
-  margin-top: 20px;
-  font-size: 18px;
+  margin: 30px 0;
+  font-size: 14px;
   letter-spacing: 0.5px;
   font-family: "Lora", serif;
   font-weight: 600;
   cursor: pointer;
 }
 
-.btn:hover {
-  border: 1px solid #0a078c;
+.white {
+  color: #0a078c !important;
+  background-color: transparent !important;
+}
+.blue:hover {
   color: #0a078c;
   background-color: transparent;
+}
+
+.white:hover {
+  color: white !important;
+  background-color: #0a078c !important;
 }

@@ -1,0 +1,61 @@
+.why {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.why__title {
+  font-family: "Lora", serif;
+  color: #0a078c;
+  padding-bottom: 30px;
+}
+
+.why__container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.why__item {
+  width: 29%;
+  text-align: center;
+  margin: 3%;
+}
+
+.why__logo {
+  font-size: 50px;
+}
+
+.why__containerTitle {
+  color: #0a078c;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+.why__containerText {
+  font-family: "Merriweather", serif;
+  letter-spacing: 0.4px;
+  font-size: 12px;
+  color: #222222;
+}
+
+@media (max-width: 850px) {
+  .why__container {
+    display: block;
+  }
+
+  .why__item {
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .why__containerTitle {
+    color: #0a078c;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+  }
+}

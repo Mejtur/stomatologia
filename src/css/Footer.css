@@ -1,0 +1,59 @@
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: #ececec;
+}
+
+.footer__contact,
+.footer__about,
+.footer__contactContainer {
+  flex: 1;
+}
+
+.footer__logoContainer,
+.footer__contact {
+  display: flex;
+  padding: 40px 30px;
+}
+
+.footer__logo {
+  height: 60px;
+}
+
+.footer__logoText {
+  font-size: 24px;
+  padding: 18px;
+  letter-spacing: 1px;
+}
+
+.footer__text {
+  padding: 0 40px;
+}
+.footer__title {
+  font-family: "Lora", serif;
+  padding-bottom: 25px;
+  font-weight: 500;
+}
+
+.footer__description {
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  padding-bottom: 25px;
+}
+
+.footer__copyright {
+  font-family: "Merriweather", serif;
+  padding: 30px 40px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    display: block;
+  }
+
+  .footer__contact {
+    padding: 40px 0;
+  }
+}

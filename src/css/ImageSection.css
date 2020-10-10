@@ -1,0 +1,64 @@
+.imageSection {
+  display: flex;
+}
+
+.imageSection__column {
+  width: 50%;
+  background-color: #f3f3f3;
+}
+
+.imageSection__image {
+  width: 100%;
+  height: 100%;
+}
+
+.imageSection__container {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 100px;
+}
+
+.imageSection__title {
+  color: #0a078c;
+  font-family: "Lora", serif;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.imageSection__description {
+  font-family: "Merriweather", serif;
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 20px;
+  color: #474747;
+}
+
+.imageSection__logoContainer {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.imageSection__logo {
+  height: 80px;
+}
+
+.imageSection__logoText {
+  font-size: 50px;
+  padding: 15px;
+  color: #474747;
+}
+
+@media (max-width: 950px) {
+  .imageSection {
+    display: block;
+  }
+
+  .imageSection__column {
+    width: 100%;
+  }
+
+  .imageSection__title {
+    padding-top: 100px;
+  }
+}
