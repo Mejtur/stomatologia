@@ -43,7 +43,7 @@ function Footer() {
           <p className="footer__description">facebook</p>
         </div>
         <div className="footer__copyright">
-          2020 Stomatologia Nazwa Nazwa Copyright{" "}
+          2020 Stomatologia Nazwa Nazwa Copyright
         </div>
       </div>
     </div>

@@ -61,4 +61,12 @@
   .imageSection__title {
     padding-top: 100px;
   }
+
+  .imageSection__logo {
+    height: 60px;
+  }
+
+  .imageSection__logoText {
+    font-size: 24px;
+  }
 }

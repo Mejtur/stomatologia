@@ -7,11 +7,13 @@
   position: fixed;
   transition: transform 1s ease;
   transform: translate(0);
+  box-shadow: 6px 0 5px -2px #777;
 }
 
 .hide {
-  transition: all 0.7s ease;
   transform: translate(-100%);
+  box-shadow: none;
+  transition: all 0.7s ease;
 }
 
 .sidebar__close {
@@ -30,8 +32,24 @@
   padding: 10px 0;
 }
 
+.sidebar__logoContainer {
+  display: flex;
+  margin: 30px;
+}
+
+.sidebar__logo {
+  width: 60px;
+}
+
+.sidebar__logoText {
+  font-size: 32px;
+  padding: 14px;
+  letter-spacing: 0.5px;
+}
+
 @media (max-width: 500px) {
   .sidebar {
     width: 100%;
+    box-shadow: none;
   }
 }

@@ -1,21 +1,28 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Featured from "./components/Featured";
-import WhyContainer from "./components/WhyContainer";
-import ImageSection from "./components/ImageSection";
-import Footer from "./components/Footer";
+import Main from './pages/Main.js';
+import Services from './pages/Services.js';
+
+import {
+  BrowserRouter as Router,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <WhyContainer />
-      <ImageSection />
-      <Featured />
-      <Footer />
+      <Router>
+        <Route exact path="/">
+          <Main />
+        </Route>
+        <Route path="/uslugi">
+          <Services />
+        </Route>
+        <Route path="/pomoc"></Route>
+        <Route path="/o_nas"></Route>
+        <Route path="/cennik"></Route>
+        <Route path="/kontakt"></Route>
+      </Router>
     </div>
   );
 }
