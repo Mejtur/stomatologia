@@ -1,0 +1,60 @@
+.singleDoctor {
+  display: flex;
+  padding-top: 100px;
+}
+
+.singleDoctor__column {
+  flex: 1;
+}
+
+.singleDoctor__image {
+  object-fit: cover;
+  width: 100%;
+  max-height: 60vh;
+}
+
+.singleDoctor__container {
+  margin: 40px;
+}
+
+.singleDoctor__name {
+  font-size: 28px;
+  font-family: "Lora", serif;
+  color: #0a078c;
+  padding-bottom: 20px;
+}
+
+.singleDoctor ul {
+  list-style-type: none;
+}
+
+.singleDoctor li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Merriweather", serif;
+  letter-spacing: 0.5px;
+  padding-bottom: 30px;
+}
+
+.singleDoctor__btn {
+  color: #0a078c;
+  border: 1px solid #0a078c;
+  background-color: transparent;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.singleDoctor__btn:hover {
+  color: white;
+  background-color: #0a078c;
+}
+
+@media (max-width: 900px) {
+  .singleDoctor {
+    display: block;
+  }
+}
