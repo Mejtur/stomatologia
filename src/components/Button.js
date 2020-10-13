@@ -1,11 +1,11 @@
 import React from "react";
 import "../css/Button.css";
 
-function Button({ white }) {
+function Button({ white, text }) {
   console.log(white);
   return (
     <button className={white ? "btn white" : "btn blue"}>
-      OMÓW SIĘ NA WIZYTĘ
+      {text ? text : "UMÓW SIE NA WIZYTE!"}
     </button>
   );
 }
